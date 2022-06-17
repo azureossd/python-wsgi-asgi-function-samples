@@ -1,5 +1,5 @@
 # python-wsgi-function-samples
-Azure Python Function samples using wSGI frameworks. This is using the builtin wSGI and aSGI handlers
+Azure Python Function samples using wSGI frameworks. This is using the built-in wSGI and aSGI handlers.
 
 
 - [Bottle](https://bottlepy.org/docs/dev/)
