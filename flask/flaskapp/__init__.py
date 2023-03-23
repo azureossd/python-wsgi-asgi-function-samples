@@ -1,4 +1,3 @@
-import json
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -9,5 +8,5 @@ def index():
 
 @app.route("/hello/<name>")
 def hello(name: str):
-    return jsonify({ "message": f"Hello, {name} from python-wsgi-function-samples-flask" })
+    return jsonify({ "message": f"Hello {name}, from python-wsgi-function-samples-flask" })
 
